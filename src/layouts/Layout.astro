@@ -1,0 +1,31 @@
+---
+import '../styles/global.css';
+
+const { title, bedrijfsnaam } = Astro.props;
+---
+
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <!-- Navigatie -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+      <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+        <span class="text-green-700 font-bold text-xl">🌿 {bedrijfsnaam}</span>
+        <ul class="flex gap-6 text-gray-600 font-medium">
+          <li><a href="#over-ons" class="hover:text-green-700 transition">Over ons</a></li>
+          <li><a href="#diensten" class="hover:text-green-700 transition">Diensten</a></li>
+          <li><a href="#portfolio" class="hover:text-green-700 transition">Portfolio</a></li>
+          <li><a href="#contact" class="hover:text-green-700 transition">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <slot />
+  </body>
+</html>
