@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f9f6f0;
+  color: #2d2d2d;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}

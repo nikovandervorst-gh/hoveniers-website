@@ -1,8 +1,8 @@
 export const bedrijf = {
-  naam: "Groenrijk Hoveniers",
+  naam: "Rees-Hoveniers",
   tagline: "Vakmanschap in uw tuin",
   beschrijving: "Wij zijn een jong en gedreven hoveniersbedrijf uit de regio. Met oog voor detail en liefde voor groen maken wij van elke tuin een plek om van te genieten.",
-  email: "info@groenrijk.nl",
+  email: "info@reeshoveniers.nl",
   telefoon: "06-12345678",
 };
 
@@ -14,8 +14,8 @@ export const diensten = [
 ];
 
 export const portfolio = [
-  { titel: "Achtertuin Amsterdam", afbeelding: "https://placehold.co/600x400/86efac/166534?text=Achtertuin" },
-  { titel: "Terras Rotterdam", afbeelding: "https://placehold.co/600x400/86efac/166534?text=Terras" },
-  { titel: "Voortuin Utrecht", afbeelding: "https://picsum.photos/seed/tuin3/600/400" },
-  { titel: "Bedrijfstuin Haarlem", afbeelding: "https://picsum.photos/seed/tuin4/600/400" },
+  { titel: "Achtertuin Amsterdam", afbeelding: "/fotos/voorbeeld1.png" },
+  { titel: "Terras Rotterdam", afbeelding: "/fotos/voorbeeld2.png" },
+  { titel: "Voortuin Utrecht", afbeelding: "/fotos/voorbeeld3.png" },
+  { titel: "Bedrijfstuin Haarlem", afbeelding: "/fotos/voorbeeld4.png" },
 ];
